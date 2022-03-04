@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         *,
         *::before,
@@ -36,6 +37,7 @@
             bottom: 0;
             left: 50%;
             margin-left: -1px;
+            margin-top: 50px;
         }
 
         .container {
@@ -205,9 +207,18 @@
 </head>
 
 <body>
+    <div id="navbar">
+        <nav class="page__menu menu">
+            <ul class="menu__list r-list">
+                <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Home</a></li>
+                <li class="menu__group"><a href="t_page.html" class="menu__link r-link text-underlined">T's page</a></li>
+                <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">M's page</a></li>
+            </ul>
+        </nav>
+    </div>
     <div class="timeline">
         <div class="container left">
-            <div class="date"  style="right: -80px;">User</div>
+            <div class="date" style="right: -80px;">User</div>
             <!-- <i class="icon fa fa-home"></i> -->
             <img src="images/user.png" alt="user" class="icon fa fa-home">
             <div class="content">
@@ -216,8 +227,10 @@
                     Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper
                     pretium.
                     Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper
-                    pretium.                    Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper
-                    pretium.                    Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper
+                    pretium. Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut
+                    blandit semper
+                    pretium. Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut
+                    blandit semper
                     pretium.
                 </p>
             </div>
@@ -257,13 +270,13 @@
                 <p>
                     Translate human readable address to machine readable IP address.
                 </p>
-                <p style="margin-top: 30px;"> 
+                <p style="margin-top: 30px;">
                     example.com -> 91.34.134.43
                 </p>
             </div>
         </div>
         <div class="container left">
-            <div class="date"  style="right: -200px;">Server - 91.34.134.43</div>
+            <div class="date" style="right: -200px;">Server - 91.34.134.43</div>
             <!-- <i class="icon fa fa-cog"></i> -->
             <img src="images/server.png" alt="user" class="icon fa fa-home">
             <div class="content">
