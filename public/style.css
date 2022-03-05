@@ -1,6 +1,9 @@
 
 #navbar{
     text-align: center;
+    position:fixed ;
+    width: 100vw;
+    z-index: 100;
 }
 
 
