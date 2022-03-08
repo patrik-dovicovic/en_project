@@ -17,14 +17,11 @@ p{
 }
 
 
-.modern_world{
-
-}
-
 .birds_info_container{
     display: flex;
     text-align: center;
     vertical-align: center;
+    justify-content: space-between;
 }
 
 .birds_info{
