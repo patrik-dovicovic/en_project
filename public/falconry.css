@@ -43,3 +43,15 @@ p{
     margin: 0;
     text-align: center;
 }
+
+@media (max-width: 440px) {
+    .birds_info_container{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .birds_info{
+        height: 400px;
+        width: 100vw;
+    }
+}
