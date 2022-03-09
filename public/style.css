@@ -63,10 +63,11 @@ body{
 .dropdown_content {
   display: none;
   position: absolute;
-  background-color: #dfdede;
+  background-color: #cfcfcf;
   min-width: 160px;
   z-index: 1;
   border: black 3px solid;
+  border:none;
 }
 
 .dropdown_content a {
